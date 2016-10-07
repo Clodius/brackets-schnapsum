@@ -33,7 +33,7 @@ define(function (require, exports, module) {
         EditorManager   = brackets.getModule("editor/EditorManager");
     
     // --- Extension modules ---
-    var LoremBreizhum = require("LoremBreizhum");
+    var schnapsum = require("schnapsum");
     
     // --- Helper functions ---
     function _getLoremCommand(editor) {
@@ -50,11 +50,11 @@ define(function (require, exports, module) {
         
         command = document.getRange({line: pos.line, ch: start}, {line: pos.line, ch: end});
         
-        if (command.match(/breizhum/)) {
-            command = command.substring(command.match(/breizhum/).index);
+        if (command.match(/schnapsum/)) {
+            command = command.substring(command.match(/schnapsum/).index);
         }
         
-        return ((command.split("_")[0] === "breizhum") ? command : "");
+        return ((command.split("_")[0] === "schnapsum") ? command : "");
     }
     
     // --- Event handlers ---
@@ -69,7 +69,7 @@ define(function (require, exports, module) {
         if ((event.type === "keydown") && (event.keyCode === KeyEvent.DOM_VK_TAB)) {
             command = _getLoremCommand(editor);
             if (command) {
-                text    = LoremBreizhum.parseCommand(command);
+                text    = schnapsum.parseCommand(command);
                 end     = editor.getCursorPos();
                 start   = {line: end.line, ch: end.ch - command.length};
                 editor.document.replaceRange(text, start, end);
