@@ -54,30 +54,19 @@ define(function (require, exports, module) {
     var _allSizes = [ SIZE_SHORT, SIZE_MEDIUM, SIZE_LONG, SIZE_VERY_LONG ];
     
     var _shortWords     = [ // Words with less than four letters
-        "ael", "aer", "aes", "aes", "aet", "ali", "ali", "all", "anv", "aod", "aon", "bag", "Baz", "bed", "beg", "bev", "bez", "biz", "bod", "bro",
-        "da", "dek", "den", "den", "dir", "don", "dor", "dra", "dre", "du", "du", "du", "e", "e", "e", "e", "eil", "eme", "eñ", "eno", "eo", "eor",
-        "eta", "eur", "eus", "fri", "fur", "gar", "ger", "giz", "giz", "giz", "goz", "hag", "he", "he", "he", "hep", "hi", "hir", "hol", "hol", "hon",
-        "hon", "hor", "hor", "jod", "kae", "kar", "kas", "kav", "ken", "ken", "ker", "kêr", "kêr", "kêr", "ki", "kig", "kof", "las", "ler", "liv",
-        "liv", "liv", "loa", "lun", "lur", "ma", "mab", "mae", "mar", "mat", "mat", "me", "me", "mel", "met", "mil", "miz", "mor", "mui", "na", "nag",
-        "nav", "ni", "niz", "noz", "o", "oan", "pa", "pal", "pe", "pe", "pep", "per", "piv", "piz", "pod", "pri", "rak", "re", "re", "ret", "rev",
-        "ruz", "sae", "spi", "sul", "Sun", "tad", "tal", "tan", "te", "ti", "tog", "tre", "tri", "tro", "tu", "tud", "vi", "war", "ya", "yar", "yen",
-        "yod"
+        "égàl", "gal!", "doch", "of", "de", "geut", "sech", "nett", "mer", "am", "un", "a", "bür", "bett" "dû", "du", "du", "e", "e", "e", "e", "dûû", "eme", "a", "a", "dr", "wenn", "alles", "noch", "mitt", "mir", "bett", "gànz", "voll ", "oder", "ech", "heim", "ìch", "net", "gal", "jetz", "hop"
     ];
     
     var _mediumWords    = [ // Words with four to six letters
-        "a zo", "a-bell", "a-bell", "a-benn", "a-bezh", "a-hed", "a-raok", "abaoe", "zoken"
+        "picon bière", "Melfor", "Carola", "kouglopf", "wurscht", "knäckes", "bisous", "gross", "guata", "bier", "schneck", "klein", "knèkes", "fraü", "scheni", "schiss", "salami", "bibbala", "bredele", "Ponchour", "bisame", "vater", "elsass", "schnell", "hopla", "hopla", "schwanz", "schmutz", "knepfle", "ftomi!", "Chulien", "Chulie", "nüdle", "Roger", "picon", "yeuh", "Coopé"
     ];
     
     var _longWords      = [ // Words with seven to ten letters
-        "a-dreuz", "a-us da", "a-walc'h", "a-wechoù", "abardaez", "ac'hano", "adaozañ", "adaozañ", "alc'houez", "amanenn", "amprevan", "an Orient",
-        "anavezout", "antronoz", "ar Gerveur", "ar gwellañ", "ar gwellañ", "ar muiañ", "ar re all", "arc'hant", "arrebeuri", "aval-douar", "bandenn",
-        "banniel", "banniel", "baradoz",  "yenijenn"
+        "chenerator", "picon bière",  "mannele", "bibbeleskaas", "fleishwurcht", "Sepala", "grumbere", "salat", "elsassisch", "glühwein", "hopla geiss", "spatzles", "geburtstàg", "schissabibala", "kasnacka", "machs gut", "Boumbernikel", "sürrkrut", "fill mauls", "was esch?", "blottkopf", "gewurztraminer", "Huguette", "Strasbourg", "Heineken", "mamsell", "schneck", "chambon", "pfourtz!", "rossbolla", "munster", "rucksack"
     ];
     
     var _veryLongWords  = [ // Words with more than ten letters
-        "a-greiz-holl", "ankouna'haat", "armel-levrioù", "bag dre lien", "bag-dre-dan", "barrad-glav", "biz-gwalenn", "Breizh-Izel", "Breizh-Uhel",
-        "Breizh-Veur", "c'hoar-gaer", "c'hoarvezout", "c'hoarvezout", "c'hwec'hvet", "c'hwezhañ e fri", "d'a-vihanañ", "degouezhout", "deiz ar bloaz",
-        "dilhad-gwele", "dilhad-kerf", "ti-hent-houarn", "tra bennak", "tro-c'houzoug"
+        "Waltenuntenweyersniederwiller", "Obershaeffolsheim", "Niederhausbergen", "Souffeluntenüberheim", "Oberoffenniederwald", "Furdenheim", "Scharrarbergheim", "flammekueche", "S'ech geut", "Bonchour bisamme", "Schwàrtzwurscht", "dàchkàndelhüpser", "deppfele schiesser", "lorem elsass", "Flàmmeküeche", "Gott verdàmm'mi", "lach der a vélo", "Sàlü, geht's?", "Kabinetpapier", "tchao bissame", "Chulia Roberts", "Richard Schirmeck", "kartoffelsalad", "leverwurscht"
     ];
     
     var _allWords = _shortWords.concat(_mediumWords, _longWords, _veryLongWords);
