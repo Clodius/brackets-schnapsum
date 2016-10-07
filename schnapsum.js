@@ -59,11 +59,11 @@ define(function (require, exports, module) {
     ];
     
     var _mediumWords    = [ // Words with four to six letters
-        "picon bière", "Melfor", "Carola", "kouglopf", "wurscht", "knäckes", "bisous", "gross", "guata", "bier", "schneck", "klein", "knèkes", "fraü", "scheni", "schiss", "salami", "bibbala", "bredele", "Ponchour", "bisame", "vater", "elsass", "schnell", "hopla", "hopla", "schwanz", "schmutz", "knepfle", "ftomi!", "Chulien", "Chulie", "nüdle", "Roger", "picon", "yeuh", "Coopé"
+        "picon bière", "Melfor", "Carola", "kouglopf", "wurscht", "knäckes", "bisous", "gross", "guata", "bier", "schneck", "klein", "knèkes", "fraü", "scheni", "schiss", "salami", "bibbala", "bredele", "Ponchour", "bisame", "vater", "elsass", "schnell", "hopla", "hopla", "schwanz", "schmutz", "knepfle", "ftomi!", "Chulien", "Chulie", "nüdle", "Roger", "picon", "yeuh", "Coopé", "knack"
     ];
     
     var _longWords      = [ // Words with seven to ten letters
-        "chenerator", "picon bière",  "mannele", "bibbeleskaas", "fleishwurcht", "Sepala", "grumbere", "salat", "elsassisch", "glühwein", "hopla geiss", "spatzles", "geburtstàg", "schissabibala", "kasnacka", "machs gut", "Boumbernikel", "sürrkrut", "fill mauls", "was esch?", "blottkopf", "gewurztraminer", "Huguette", "Strasbourg", "Heineken", "mamsell", "schneck", "chambon", "pfourtz!", "rossbolla", "munster", "rucksack"
+        "chenerator", "picon bière",  "mannele", "bibbeleskaas", "fleishwurcht", "Sepala", "grumbere", "salat", "elsassisch", "glühwein", "hopla geiss", "spatzles", "geburtstàg", "schissabibala", "kasnacka", "machs gut", "Boumbernikel", "sürrkrut", "fill mauls", "was esch?", "blottkopf", "gewurztraminer", "Huguette", "Strasbourg", "Heineken", "mamsell", "schneck", "chambon", "pfourtz!", "rossbolla", "munster", "rucksack", "Chinette", "choucroute", "choucroute", "saucisse"
     ];
     
     var _veryLongWords  = [ // Words with more than ten letters

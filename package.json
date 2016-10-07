@@ -1,7 +1,7 @@
 {
     "name": "brackets-schnapsum",
     "title": "Schnapsum",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Generates Lorem Schnapsum text automatically in any Brackets document. Forked from brackets-lorem-ipsum.",
     "homepage": "https://github.com/raphaelgoetter/brackets-schnapsum",
     "author": "Raphael Goetter (forked from https://github.com/YoruNoHikage)",
