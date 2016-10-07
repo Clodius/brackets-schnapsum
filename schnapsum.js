@@ -22,6 +22,7 @@
  *
  */
 
+
 /*jslint vars: true, plusplus: true, devel: true, regexp: true, nomen: true, indent: 4, maxerr: 50 */
 /*global define, brackets */
 
@@ -48,13 +49,13 @@ define(function (require, exports, module) {
     
     var FORTUNE_FILE_ARRAY  = require("text!fortunes.txt").split("%");
     
-    var HELP_URL = "https://github.com/raphaelgoetter/brackets-schnapsum#how-to-use-schnapsum-generator";
+    var HELP_URL = "https://github.com/raphaelgoetter/brackets-schnapsum";
     
     // --- Private members
     var _allSizes = [ SIZE_SHORT, SIZE_MEDIUM, SIZE_LONG, SIZE_VERY_LONG ];
     
     var _shortWords     = [ // Words with less than four letters
-        "égàl", "gal!", "doch", "of", "de", "geut", "sech", "nett", "mer", "am", "un", "a", "bür", "bett" "dû", "du", "du", "e", "e", "e", "e", "dûû", "eme", "a", "a", "dr", "wenn", "alles", "noch", "mitt", "mir", "bett", "gànz", "voll ", "oder", "ech", "heim", "ìch", "net", "gal", "jetz", "hop"
+        "égàl", "gal!", "doch", "of", "de", "geut", "sech", "nett", "mer", "am", "un", "a", "bür", "bett", "dû", "du", "du", "e", "e", "e", "e", "dûû", "eme", "a", "a", "dr", "wenn", "alles", "noch", "mitt", "mir", "bett", "gànz", "voll ", "oder", "ech", "heim", "ìch", "net", "gal", "jetz", "hop"
     ];
     
     var _mediumWords    = [ // Words with four to six letters
