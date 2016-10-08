@@ -6,7 +6,19 @@ Alors profite du **Schnapsum** en alsacien, le langage moderne et tendance pour 
 
 L'alsacien est non seulement une langue noble et chantante, elle offre en outre toute la panoplie nécessaire aux textes de remplissage&nbsp;: mots variés voire longs, accents en tous genre et caractères spéciaux.
 
-Prends le temps de bien lire ce rittme.md pour tout comprendre.
+Voilà donc un exemple de texte généré :
+> Lorem Picon bière munster du ftomi! Ponchour bisame. Bibbeleskaas jetz rossbolla sech 
+> choucroute un schwanz geburtstàg, Chinette dû, ìch bier deppfele 
+> schiesser. Rossbolla de knèkes Sepala gal! a a hopla geburtstàg, alles fraü 
+> Chulia Roberts oder knäckes dûû blottkopf. Noch bredele geburtstàg 
+> schissabibala, hopla yeuh e schmutz. E picon bière Carola schneck 
+> fleishwurcht, schmutz a pfourtz! dûû guata eme choucroute Roger Roger of hopla, 
+> du Chinette de Scharrarbergheim. Kouglopf ech ìch wurscht rucksack mitt schneck 
+> jetz saucisse a du schiss mannele, knèkes saucisse de 
+> Niederhausbergen of fill mauls knèkes fleishwurcht kasnacka de eme gal nüdle 
+> rossbolla, de Chulien Roger hop pfourtz! bett mer ech scheni salami schmutz.
+
+Hop, maintenant prends le temps de bien lire ce rittme.md pour tout comprendre.
 
 ### Installation
 0. Schnapsum est une extension [Brackets](https://github.com/adobe/brackets/)
