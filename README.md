@@ -2,11 +2,11 @@
 
 Yeuh, t'en as marre de tous ces knèkes et de leurs Lorem Ipsum en latin, gal&nbsp;?
 
-Alors profite du **Schnapsum** en alsacien, le langage moderne et tendance pour créer tes faux textes et remplir vos pages de contenu. Hopla&nbsp;!
+Alors profite du **Schnapsum** en alsacien, le langage moderne et tendance pour créer tes faux textes et remplir tes pages de contenu. Hopla&nbsp;!
 
 L'alsacien est non seulement une langue noble et chantante, elle offre en outre toute la panoplie nécessaire aux textes de remplissage&nbsp;: mots variés voire longs, accents en tous genre et caractères spéciaux.
 
-Voilà donc un exemple de texte généré :
+Voilà donc un exemple de texte chénéré :
 > Lorem Picon bière munster du ftomi! Ponchour bisame. Bibbeleskaas jetz rossbolla sech 
 > choucroute un schwanz geburtstàg, Chinette dû, ìch bier deppfele 
 > schiesser. Rossbolla de knèkes Sepala gal! a a hopla geburtstàg, alles fraü 

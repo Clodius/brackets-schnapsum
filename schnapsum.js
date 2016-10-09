@@ -55,19 +55,19 @@ define(function (require, exports, module) {
     var _allSizes = [ SIZE_SHORT, SIZE_MEDIUM, SIZE_LONG, SIZE_VERY_LONG ];
     
     var _shortWords     = [ // Words with less than four letters
-        "égàl", "gal!", "doch", "le", "de", "geut", "sech", "nett", "mer", "am", "un", "la", "bür", "bett", "dû", "du", "du", "le", "de", "la", "le", "dûû", "eme", "a", "de", "dr", "wenn", "alles", "noch", "mitt", "mir", "bett", "gànz", "voll ", "oder", "ech", "heim", "ìch", "net", "gal", "jetz", "hop", "bis"
+        "égàl", "gal!", "doch", "le", "de", "geut", "sech", "nett", "mer", "am", "un", "la", "bür", "bett", "dû", "du", "du", "le", "de", "la", "le", "dûû", "eme", "a", "de", "dr", "wenn", "alles", "noch", "mitt", "mir", "bett", "gànz", "voll ", "oder", "ech", "heim", "ìch", "net", "gal", "jetz", "hop", "bis", "gal", "et"
     ];
     
     var _mediumWords    = [ // Words with four to six letters
-        "picon bière", "Melfor", "Carola", "kouglopf", "wurscht", "knäckes", "bisous", "gross", "guata", "bier", "schneck", "klein", "knèkes", "fraü", "scheni", "schiss", "salami", "bibbala", "bredele", "Ponchour", "bisame", "vater", "elsass", "schnell", "hopla", "hopla", "schwanz", "schmutz", "knepfle", "Ftomi!", "Chulien", "Chulie", "nüdle", "Roger", "picon", "yeuh", "Coopé", "knack"
+        "picon bière", "Melfor", "Carola", "kouglopf", "wurscht", "knäckes", "bisous", "gross", "guata", "bier", "schneck", "klein", "knèkes", "fraü", "scheni", "schiss", "salami", "bibbala", "bredele", "Ponchour", "bisame", "vater", "elsass", "schnell", "hopla", "hopla", "schwanz", "schmutz", "knepfle", "Ftomi!", "Chulien", "Chulie", "nüdle", "Roger", "picon", "yeuh", "Coopé", "knack", "riesling"
     ];
     
     var _longWords      = [ // Words with seven to ten letters
-        "chenerator", "picon bière",  "mannele", "bibbeleskaas", "fleishwurcht", "Sepala", "grumbere", "salat", "elsassisch", "glühwein", "hopla geiss", "spatzles", "geburtstàg", "schissabibala", "kasnacka", "machs gut", "Boumbernikel", "sürrkrut", "fill mauls", "was esch?", "blottkopf", "gewurztraminer", "Huguette", "Strasbourg", "Heineken", "mamsell", "schneck", "chambon", "pfourtz!", "rossbolla", "munster", "rucksack", "Chinette", "choucroute", "choucroute", "saucisse"
+        "chenerator", "picon bière",  "mannele", "bibbeleskaas", "fleishwurcht", "Sepala", "grumbere", "salat", "elsassisch", "glühwein", "hopla geiss", "spatzles", "geburtstàg", "schissabibala", "kasnacka", "machs gut", "Boumbernikel", "sürrkrut", "fillmauls", "was esch?", "blottkopf", "gewurztraminer", "Huguette", "Strasbourg", "Heineken", "mamsell", "schneck", "chambon", "pfourtz!", "rossbolla", "munster", "rucksack", "Chinette", "choucroute", "choucroute", "saucisse", "hopla geiss"
     ];
     
     var _veryLongWords  = [ // Words with more than ten letters
-        "Waltenuntenweyersniederwiller", "Obershaeffolsheim", "Niederhausbergen", "Souffeluntenüberheim", "Oberoffenniederwald", "Furdenheim", "Scharrarbergheim", "flammekueche", "S'ech geut", "Bonchour bisamme", "Schwàrtzwurscht", "dàchkàndelhüpser", "deppfele schiesser", "lorem elsass", "Flàmmeküeche", "Gott verdàmm'mi", "lach der a vélo", "Sàlü, wie geht's?", "Kabinetpapier", "tchao bissame", "Chulia Roberts", "Richard Schirmeck", "kartoffelsalad", "leverwurscht"
+        "Waltenuntenweyersniederwiller", "Obershaeffolsheim", "Niederhausbergen", "Souffeluntenüberheim", "Oberoffenniederwald", "Furdenheim", "Scharrarbergheim", "flammekueche", "S'ech geut", "Bonchour bisamme", "Schwàrtzwurscht", "dàchkàndelhüpser", "deppfele schiesser", "lorem elsass", "Flàmmeküeche", "Gott verdàmm'mi", "lach der a vélo", "Sàlü, wie geht's?", "Kabinetpapier", "tchao bissame", "Chulia Roberts", "Richard Schirmeck", "kartoffelsalad", "leverwurscht", "gottfertomi!"
     ];
     
     var _allWords = _shortWords.concat(_mediumWords, _longWords, _veryLongWords);
