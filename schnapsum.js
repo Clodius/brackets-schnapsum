@@ -59,7 +59,7 @@ define(function (require, exports, module) {
     ];
     
     var _mediumWords    = [ // Words with four to six letters
-        "picon bière", "Melfor", "Carola", "kouglopf", "wurscht", "knäckes", "bisous", "gross", "guata", "bier", "schneck", "klein", "knèkes", "fraü", "scheni", "schiss", "salami", "bibbala", "bredele", "Ponchour", "bisame", "vater", "elsass", "schnell", "hopla", "hopla", "schwanz", "schmutz", "knepfle", "Ftomi!", "Chulien", "Chulie", "nüdle", "picon", "yeuh", "Coopé", "knack", "riesling", "Yeeuuu"
+        "picon bière", "Melfor", "Carola", "kouglopf", "wurscht", "knäckes", "bisous", "gross", "guata", "bier", "schneck", "klein", "knèkes", "fraü", "scheni", "schiss", "salami", "bibbala", "bredele", "Ponchour", "bisame", "vater", "elsass", "schnell", "hopla", "hopla", "schwanz", "schmutz", "knepfle", "Ftomi!", "Chulien", "Chulie", "nüdle", "picon", "yeuh", "Coopé", "knack", "riesling", "Yeeuuu", "groupir!"
     ];
     
     var _longWords      = [ // Words with seven to ten letters
